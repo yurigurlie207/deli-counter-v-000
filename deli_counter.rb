@@ -12,6 +12,7 @@ def line(katz_deli)
       line = line + " #{count}. #{name}"
       count +=1
     end
+    puts "#{line}"
   end
 end
 
