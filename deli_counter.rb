@@ -11,7 +11,6 @@ def line(katz_deli)
     katz_deli.each do |name|
       print "#{count}. #{name} "
     end
-
   end
 
 end
