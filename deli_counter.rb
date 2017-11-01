@@ -13,7 +13,6 @@ def line(katz_deli)
       count +=1
     end
   end
-
 end
 
 def take_a_number(katz_deli,name)
