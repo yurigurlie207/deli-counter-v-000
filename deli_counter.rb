@@ -6,10 +6,10 @@ def line(katz_deli)
   if katz_deli == [] || katz_deli == nil then
     puts "The line is currently empty."
   else
-    print "The line is currently: "
+    print "The line is currently:"
     count = 1;
     katz_deli.each do |name|
-      print "#{count}. #{name} "
+      print " #{count}. #{name}"
     end
   end
 
