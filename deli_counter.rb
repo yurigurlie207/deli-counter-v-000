@@ -7,6 +7,7 @@ def line(katz_deli)
     "The line is currently empty."
   else
     puts "The line is current: #{katz_deli.inspect}."
+  end"
 
 end
 
