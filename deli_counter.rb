@@ -9,7 +9,7 @@ def line(katz_deli)
     print "The line is currently: "
     count = 1;
     katz_deli.each do |name|
-      
+    end
 
   end
 
