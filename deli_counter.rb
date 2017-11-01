@@ -12,6 +12,13 @@ def line(katz_deli)
     #   print " #{count}. #{name}"
     #   count +=1
     # end
+
+    line = "The line is currently:"
+    count = 1;
+    katz_deli.each do |name|
+      print " #{count}. #{name}"
+      count +=1
+    end
   end
 end
 
