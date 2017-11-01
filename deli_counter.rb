@@ -3,7 +3,7 @@ katz_deli = []
 
 def line(katz_deli)
 
-  if katz_deli == [] then
+  if katz_deli == [] || katz_deli == nil then
     "The line is currently empty."
   else
     print "The line is currently: "
